@@ -1,0 +1,9 @@
+---
+- name: Check that application is deployed and running as expected
+  uri:
+    url: "http://{{ vm_ip }}:8080/"
+    return_content: yes
+  register: result
+  until: "result.status == 200"
+  retries: 10
+  delay: 5

@@ -1,0 +1,10 @@
+---
+- name: Deploy app on Tomcat
+#  hosts: "{{ vm_hostname }}"
+  hosts: "{{ vm_name }}"
+#  hosts: all
+  become: true
+  gather_facts: false
+
+  roles:
+    - deploy_app
