@@ -1,6 +1,6 @@
 # Overview
 
-![SmartHotel360 Home Page](Documents/Images/Terraform & Ansible controller - IaC.png)
+![SmartHotel360 Home Page](Documents/Images/Terraform_&_Ansible controller_IaC.png)
 
 ![SmartHotel360 Home Page](Documents/Images/Terraform & Ansible controller - IaC.png)
 
