@@ -7,4 +7,3 @@
     - name: Create VM in Azure
       include_role:
         name: terraform_azure
-#        vars_from: secrets.yml
