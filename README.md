@@ -15,5 +15,10 @@ Usage
 3. Create new credentials for AZURE or AWS in AAP2.
 4. create new credentials for the git repository if it is private (optional)
 5. Create an inventory named Azure Inventory or AWS Inventory.
-6. Within the created inventory, there is a tab called source: create one called Azure Source or AWS Source by entering the            previously created cloud credentials and the following suggestions in the following image.
+6. Within the created inventory, there is a tab called source: create one called Azure Source or AWS Source by entering the            previously created cloud credentials and the following parameters suggested in the following image.
 7. Create a project in ansible where the following repository link will be entered:                                                    https://github.com/mpalacio2583/terrafom_cloud.git
+8. create the following job template:
+  - Terraform IaC. 
+    - Execution Environment: Terraform
+    - Credential: Cloud
+  - 
