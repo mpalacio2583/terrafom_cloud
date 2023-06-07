@@ -8,5 +8,6 @@ Ansible Automation Platform 2 + Terraform is a project created by ASA Red hat Co
 Note: all tested to work on AZURE and AWS public clouds.
 
 == Usage
+---------
 
 1. Enter the URL provided by the instructor.
