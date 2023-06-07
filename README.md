@@ -10,8 +10,7 @@ Note: all tested to work on AZURE and AWS public clouds.
 === Usage
 
 1. Set up the environmental variable GUID to your GUID
-+
-[source,bash]
+
 ----
 export GUID=abcd
 ----
