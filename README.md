@@ -23,28 +23,14 @@ export GUID=abcd
 +
 NOTE: You can easily test your chosen `ssh` config file e.g. `ssh -F ssh.cfg app1` etc
 . Execute your main wrapping playbook
-[source,bash]
+
 ----
  ansible-playbook main.yml
 ----
 
 === Structure
 
-[source,bash]
-----
-.
-├── README.adoc                       <1>
-├── ansible.cfg                       <2>
-├── cleanup.yml                       <3>
-├── haproxy.cfg.j2                    <4>
-├── hosts                             <5>
-├── index.html.app1                   <6>
-├── index.html.app2                   <6>
-├── index.html.j2                     <6>
-├── main.yml                          <7>
-├── ssh-bastion.cfg                   <8>
-└── ssh-laptop.cfg                    <9>
-----
+
 
 . This README file
 . Simple ansible.cfg
