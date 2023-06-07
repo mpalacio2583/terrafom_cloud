@@ -4,6 +4,6 @@
   gather_facts: false
 
   tasks:
-    - name: Create VM in Azure
+    - name: Send Mesage teams
       include_role:
         name: terraform_azure
