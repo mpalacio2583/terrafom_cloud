@@ -4,4 +4,4 @@
   gather_facts: false
 
   roles:
-    - azure_devops_ansible_rollback
+    - ansible_rollback
