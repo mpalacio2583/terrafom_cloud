@@ -43,5 +43,6 @@ Usage
     - Execution Environment: Ansible Engine 2.9 
     - Playbook: install_tomcat.yml
     - Credential: SSH VM and Cloud (azure or AWS)
+    - Options: Privilege Escalation
 
 
