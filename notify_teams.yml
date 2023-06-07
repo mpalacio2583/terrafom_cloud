@@ -1,17 +1,7 @@
-- name: Notify | Set Dat
+---
+- name: Notification Microsoft Teams
+  hosts: localhost
+  gather_facts: false
 
-  set_fact:
-
-    date: "{{ lookup('pipe', 'date +%d/%m/%Y@%H:%M') }}"
-
-- name: Notify | MS Teams
-
-  uri:
-
-    url: "{{ teams_webhook }}"
-
-    body: "{{ notify_body }}"
-
-    body_format: json
-
-    method: POSTe
+  roles:
+    - notification_teams
