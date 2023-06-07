@@ -1,6 +1,6 @@
 # Overview
 
-- [Pirncipal Image](Documents/Images/Terraform & Ansible controller - IaC.png)
+- [SmartHotel360](Documents/Images/Terraform & Ansible controller - IaC.png)
 - [SmartHotel360](https://github.com/Microsoft/SmartHotel360)
 
 Ansible Automation Platform 2 (AAP2) + Terraform is a project created by ASA Red hat Colombia to provide Ansible students with a project that allows them to build a playbook stream where the following is done:
