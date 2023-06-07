@@ -26,7 +26,7 @@ Usage
     - Playbook: Terraform_Azure.yml or  Terraform_AWS.yml
     - Credential: Azure or AWS
 
-  -  Check Inventory. 
+  - Check Inventory.
     - Inventory: Azure Inventory or AWS Inventory
     - Project: Ansible-Terraform 
     - Execution Environment: Terraform
