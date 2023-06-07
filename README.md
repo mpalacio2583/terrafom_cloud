@@ -52,6 +52,22 @@ Usage
     - Playbook: webapp_validation.yml
     - Credential: SSH VM
     - Options: Privilege Escalation
+    
+11. Create New Workflow Template
+  - Name: Flow Ansible-Terraform and Organization: Default
+    -  Start button to begin.
+      -  select the job template "Terraform IaC" and save.
+      -  On the box "Terraform IaC" select the plus sign, then select On Success and select the job template "Check Inventory" and          save.
+      -  On the box "Check Inventory" select the plus sign, then select On Success and select the job template "Install_tomcat"             and save.
+      -  On the box "Install_tomcat" select the plus sign, then select On Success and select the job template "webapp_validation"             and save.
+    -  Save the workflow.
+    -  Create Survey:
+      -  Name: Resource_Group and Answer variable name: resource_group
+      -  Name: Vm_Name and Answer variable name: vm_name
+
+12. run the workflow and observe the results.
 
 
 
+AUTHOR
+Mauricio Palacio E mpalacio@redhat.com
