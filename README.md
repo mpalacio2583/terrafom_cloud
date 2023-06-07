@@ -11,7 +11,7 @@ Usage
 ---------
 
 1. Enter the AAP2 URL provided by the instructor.
-2. Create an execution environment for terraform via the following container image: quay.io/nmartins/terraform_ee
+2. Create an execution environment for terraform via the following container image: quay.io/mpalacio_redhat_com/terraform_ee
 3. Create new credentials for AZURE or AWS in AAP2.
 4. create new credentials for the git repository if it is private (optional)
 5. Create new credentials for the VM created in AZURE or AWS in AAP2:
@@ -44,5 +44,14 @@ Usage
     - Playbook: install_tomcat.yml
     - Credential: SSH VM and Cloud (azure or AWS)
     - Options: Privilege Escalation
+
+  - webapp_validation.
+    - Inventory: Azure Inventory or AWS Inventory
+    - Project: Ansible-Terraform 
+    - Execution Environment: Ansible Engine 2.9 
+    - Playbook: webapp_validation.yml
+    - Credential: SSH VM
+    - Options: Privilege Escalation
+
 
 
