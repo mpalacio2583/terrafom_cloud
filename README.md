@@ -1,6 +1,7 @@
 # Overview
 
-![Pirncipal Image] (Documents/Images/Terraform & Ansible controller - IaC.png)
+- ![Pirncipal Image] (Documents/Images/Terraform & Ansible controller - IaC.png)
+
 Ansible Automation Platform 2 (AAP2) + Terraform is a project created by ASA Red hat Colombia to provide Ansible students with a project that allows them to build a playbook stream where the following is done:
 - IaC stage with (Terraform)
 - Inventory verification stages (Ansible)
