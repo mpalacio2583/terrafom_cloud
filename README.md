@@ -14,10 +14,13 @@ Usage
 2. Create an execution environment for terraform via the following container image: quay.io/nmartins/terraform_ee
 3. Create new credentials for AZURE or AWS in AAP2.
 4. create new credentials for the git repository if it is private (optional)
-5. Create an inventory named Azure Inventory or AWS Inventory.
-6. Within the created inventory, there is a tab called source: create one called Azure Source or AWS Source by entering the            previously created cloud credentials and the following parameters suggested in the following image.
-7. Create a project called: Ansible-Terraform where the following repository link will be entered:                                     https://github.com/mpalacio2583/terrafom_cloud.git
-8. create the following job template:
+5. Create new credentials for the VM created in AZURE or AWS in AAP2:
+  - user: ansible
+  - Password: PasswordRedhat-123! 
+7. Create an inventory named Azure Inventory or AWS Inventory.
+8. Within the created inventory, there is a tab called source: create one called Azure Source or AWS Source by entering the            previously created cloud credentials and the following parameters suggested in the following image.
+9. Create a project called: Ansible-Terraform where the following repository link will be entered:                                     https://github.com/mpalacio2583/terrafom_cloud.git
+10. create the following job template:
 
   - Terraform IaC. 
     - Inventory: Azure Inventory or AWS Inventory
@@ -32,3 +35,13 @@ Usage
     - Execution Environment: Terraform
     - Playbook: add_host_to_Controller_inventory.yml
     - Credential: Controller Credential
+
+
+  - Install_tomcat.
+    - Inventory: Azure Inventory or AWS Inventory
+    - Project: Ansible-Terraform 
+    - Execution Environment: Ansible Engine 2.9 
+    - Playbook: install_tomcat.yml
+    - Credential: SSH VM and Cloud (azure or AWS)
+
+
