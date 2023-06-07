@@ -5,8 +5,10 @@
 - name: Notify | MS Teams
   uri:
     url: "{{ teams_webhook }}"
+    method: POST
+    return_content: yes
     body: "{{ notify_body }}"
     body_format: json
-    method: POST
+
 
 
