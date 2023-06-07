@@ -1,4 +1,4 @@
-== Overview
+# Overview
 
 Ansible Automation Platform 2 + Terraform is a project created by ASA Red hat Colombia to provide Ansible students with a project that allows them to build a playbook stream where the following is done:
 1. IaC stage with (Terraform)
