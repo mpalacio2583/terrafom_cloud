@@ -1,10 +1,10 @@
 # Overview
 
 Ansible Automation Platform 2 (AAP2) + Terraform is a project created by ASA Red hat Colombia to provide Ansible students with a project that allows them to build a playbook stream where the following is done:
-. IaC stage with (Terraform)
-. Inventory verification stages (Ansible)
-. NodeJS (Ansible) application deployment stage
-. Stage to functional tests of the application. (Ansible)
+- IaC stage with (Terraform)
+- Inventory verification stages (Ansible)
+- NodeJS (Ansible) application deployment stage
+- Stage to functional tests of the application. (Ansible)
 Note: all tested to work on AZURE and AWS public clouds.
 
 Usage
