@@ -24,9 +24,9 @@ terraform_vm_os_disk_storage_account_type: "Premium_LRS"
 terraform_vm_public_ip: "ApplicationTestVmPublicIP"
 terraform_vm_public_ip_allocation_method: "Dynamic"
 terraform_vm_size: "Standard_DS1_v2"
-tomcat_archive_url: 'https://downloads.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz'
+tomcat_archive_url: 'https://downloads.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.tar.gz'
 tomcat_base_directory: /opt/tomcat/latest
-tomcat_version: '9.0.74'
+tomcat_version: '9.0.76'
 vm_hostname: "{{ vm_name }}" #ingrese variable
 azure_ansible_resource_group: 'ansible_azure_demo'
 azure_ansible_network_cidr: '10.0.0.0/16'
